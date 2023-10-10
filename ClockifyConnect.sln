@@ -3,18 +3,53 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ClockifyConnect", "ClockifyConnect\ClockifyConnect.fsproj", "{9CE3835B-DAF0-4664-8F02-AFAFFE242353}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ClockifyConnect", "ClockifyConnect\ClockifyConnect.fsproj", "{9CE3835B-DAF0-4664-8F02-AFAFFE242353}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Requesty", "..\SharedUtils\Requesty\Requesty.fsproj", "{C105505F-C956-457F-B59F-EBC700705057}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SharedUtils", "..\SharedUtils\SharedUtils\SharedUtils.fsproj", "{1A46C89A-68F7-4C80-88F9-112139044E8F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ClockifyConnectConsole", "ClockifyConnectConsole\ClockifyConnectConsole.fsproj", "{1EC87B87-2F4A-480B-8FEC-54412FE54FC0}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "JFSharp", "..\..\JFSharp\JFSharp\JFSharp.fsproj", "{DCE4BED7-B0B8-4507-9ADF-9DC0CE8701B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Local|Any CPU = Local|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9CE3835B-DAF0-4664-8F02-AFAFFE242353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9CE3835B-DAF0-4664-8F02-AFAFFE242353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE3835B-DAF0-4664-8F02-AFAFFE242353}.Local|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE3835B-DAF0-4664-8F02-AFAFFE242353}.Local|Any CPU.Build.0 = Release|Any CPU
 		{9CE3835B-DAF0-4664-8F02-AFAFFE242353}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CE3835B-DAF0-4664-8F02-AFAFFE242353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C105505F-C956-457F-B59F-EBC700705057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C105505F-C956-457F-B59F-EBC700705057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C105505F-C956-457F-B59F-EBC700705057}.Local|Any CPU.ActiveCfg = Release|Any CPU
+		{C105505F-C956-457F-B59F-EBC700705057}.Local|Any CPU.Build.0 = Release|Any CPU
+		{C105505F-C956-457F-B59F-EBC700705057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C105505F-C956-457F-B59F-EBC700705057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A46C89A-68F7-4C80-88F9-112139044E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A46C89A-68F7-4C80-88F9-112139044E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A46C89A-68F7-4C80-88F9-112139044E8F}.Local|Any CPU.ActiveCfg = Release|Any CPU
+		{1A46C89A-68F7-4C80-88F9-112139044E8F}.Local|Any CPU.Build.0 = Release|Any CPU
+		{1A46C89A-68F7-4C80-88F9-112139044E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A46C89A-68F7-4C80-88F9-112139044E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC87B87-2F4A-480B-8FEC-54412FE54FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC87B87-2F4A-480B-8FEC-54412FE54FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC87B87-2F4A-480B-8FEC-54412FE54FC0}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC87B87-2F4A-480B-8FEC-54412FE54FC0}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{1EC87B87-2F4A-480B-8FEC-54412FE54FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC87B87-2F4A-480B-8FEC-54412FE54FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE4BED7-B0B8-4507-9ADF-9DC0CE8701B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE4BED7-B0B8-4507-9ADF-9DC0CE8701B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE4BED7-B0B8-4507-9ADF-9DC0CE8701B6}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{DCE4BED7-B0B8-4507-9ADF-9DC0CE8701B6}.Local|Any CPU.Build.0 = Local|Any CPU
+		{DCE4BED7-B0B8-4507-9ADF-9DC0CE8701B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE4BED7-B0B8-4507-9ADF-9DC0CE8701B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
